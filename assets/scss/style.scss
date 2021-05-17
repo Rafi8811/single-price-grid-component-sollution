@@ -1,0 +1,166 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-size: 16px;
+	font-family: 'Karla', sans-serif;
+	background-color:  hsl(204, 43%, 93%);
+	max-height: 100vh;
+	.grid-comp{
+		width: 44.2361111%;
+		height: auto;
+		margin: 10.4166666667% 27.8819444444%;
+		display: grid;
+		grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+        box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.45);
+        max-width: 707.7777776px;
+        @media only screen and (min-width:1601px ){
+        	margin: 10.4166666667% auto;
+        }
+        @media only screen and (max-width:1200px ){
+        	margin: 10.4166666667% auto;
+        	width:60%;
+        }
+        @media only screen and (max-width:900px ){
+        	margin: 10.4166666667% auto;
+        	width:65%;
+        }
+         @media only screen and (max-width:800px ){
+        	margin: 10.4166666667% auto;
+        	width:70%;
+        	grid-template-columns: 100%;
+            grid-template-rows: 100%;
+        }
+          @media only screen and (max-width:600px ){
+        	margin: 15% auto;
+        	width:80%;
+        	height:auto;
+        	grid-template-columns: 100%;
+            grid-template-rows: 100%;
+        }
+
+        .top-sec{
+        	background-color: white;
+        	grid-column: span 2;
+        	padding: 7.23270440252% 6.2893081761%;
+        	border-top-left-radius: 0.5rem;
+        	border-top-right-radius: 0.5rem;
+        	 @media only screen and (max-width:800px ){
+        	 grid-column:1 / 2;
+            }
+        	h2{
+        		font-size: 1.5rem;
+        		margin-bottom: 1.7rem;
+        		font-weight: 700;
+        		font-family: 'Karla', sans-serif;
+        		color: hsl(179, 62%, 43%);
+        	}
+        	h4{
+        		font-size: 1.25rem;
+        		font-weight: 500;
+        		margin-bottom: 1rem;
+        		font-family: 'Karla', sans-serif;
+        		color: hsl(71, 73%, 54%);
+        	}
+        	p{
+        		font-size: 0.875rem;
+        		line-height: 1.5rem;
+        		font-family: 'Karla', sans-serif;
+        		color: hsl(218, 22%, 67%);
+        		margin-bottom: 0px;
+        		padding-bottom: 0px;
+
+        	}
+			
+        }
+        .left-sec , .right-sec{
+        	padding: 7.07547169811% 10%;
+        	padding-bottom: 14%;
+        	 @media only screen and (max-width:800px ){
+        	  padding-bottom: 10%;
+            }
+             @media only screen and (max-width:1300px ){
+        	  
+        	  padding-bottom: 12%;
+            }
+        	p{
+        		color: white;
+        	}
+        	strong{
+        		color: white;
+        		span{
+        			color: white;
+        			opacity: 0.8;
+        			font-weight: lighter;
+        		}
+        	}
+        	h4{
+        		color: white;
+        		margin-bottom: 1.25rem;
+        		font-weight: 700;
+        		font-family: 'Karla', sans-serif;
+        		font-size: 1.125rem;
+        		letter-spacing: -0.05rem;
+        	}
+        }
+        .right-sec{
+        	background-color: #4bbebc;
+        	border-bottom-right-radius: 0.5rem;
+        	 @media only screen and (max-width:800px ){
+        	border-bottom-left-radius: 0.5rem;
+            }
+        	p{
+        		margin: 0px 0px;
+        		font-family: 'Karla', sans-serif;
+        		opacity: 0.9;
+        		font-size: 0.9rem;
+               line-height: 1.35rem;
+        	}
+        }
+        .left-sec{
+        	background-color: #2ab2af;
+        	border-bottom-left-radius: 0.5rem;
+        	 @media only screen and (max-width:800px ){
+        	 border-bottom-left-radius: 0rem;
+            }
+        	strong{
+        		font-size:2rem;
+        		margin-bottom: 0.5rem;
+        		font-family: 'Karla', sans-serif;
+        		font-weight: 500;
+        		span{
+        			font-size: 0.9rem;
+        			letter-spacing: 1px;
+        			font-weight: 700;
+        		}
+        	}
+        	p{
+        		margin-bottom: 2rem;
+        		font-family: 'Karla', sans-serif;
+        	}
+        	a{    
+        		  color: white;
+                  background-color: hsl(71, 73%, 54%);
+                  text-decoration: none;
+                  padding-top: 1rem;
+                  padding-bottom: 1rem;
+                  border-radius: 0.5rem;
+                  font-weight: 500;
+                  display: flex;
+                  justify-content: center;
+                  box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.5);
+                  &:hover{
+                  	background-color: #b8d630;
+                  }
+        	}
+        }
+	}
+	footer{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		p{
+			text-align: center;
+		}
+	}
+}
