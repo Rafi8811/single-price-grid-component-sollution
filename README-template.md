@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Sollution](https://your-solution-url.com)
-- Live Site URL: [Live Site](https://your-live-site-url.com)
+- Solution URL: [Sollution](https://github.com/Rafi8811/single-price-grid-component-sollution)
+- Live Site URL: [Live Site](https://single-price-component-sollution.netlify.app/)
 
 ## My process
 
